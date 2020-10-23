@@ -44,5 +44,9 @@ export default {
   content: {},
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    babel: {
+      compact: true, // https://github.com/bootstrap-vue/bootstrap-vue/issues/5627
+    },
+  },
 }
