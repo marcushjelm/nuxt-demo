@@ -1,7 +1,6 @@
 <template>
   <div>
     <h1>Kontakt</h1>
-
     <ValidationObserver v-slot="{ handleSubmit }">
       <b-form novalidate @submit.prevent="handleSubmit(onSubmit)">
         <ValidationProvider
